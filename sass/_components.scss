@@ -8,22 +8,12 @@
 	}
 }
 .decorative-heading {
-	font-size: 1400%;
+	font-size: calc((100vw * 7) / 100);
 	text-align: center;
+	text-transform: uppercase;
 	color: rgba(119, 119, 119, 0.2);
-	margin-bottom: -17rem;
+	margin-bottom: -16rem;
 	z-index: -1;
-
-	@media only screen and (max-width: 89.5em) {
-		font-size: 1250%;
-	}
-	@media only screen and (max-width: 80em) {
-		font-size: 1220%;
-	}
-	@media only screen and (max-width: 78.125em) {
-		font-size: 1100%;
-		margin-bottom: -15rem;
-	}
 }
 
 // Logo
